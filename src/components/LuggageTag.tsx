@@ -589,7 +589,7 @@ export function LuggageTag() {
             style={{ backgroundPosition: isDownloading ? "right" : "left" }}
           >
             <Download className={`w-4 h-4 ${isDownloading ? "animate-bounce" : ""}`} />
-            <span>{isDownloading ? "Exporting..." : "Export PNG"}</span>
+            <span>{isDownloading ? "Exporting..." : "Download Tag"}</span>
           </button>
         </div>
 
