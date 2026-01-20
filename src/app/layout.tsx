@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import "./globals.css";
 import VisualEditsMessenger from "../visual-edits/VisualEditsMessenger";
@@ -39,6 +40,7 @@ export default function RootLayout({
         />
         {children}
         <VisualEditsMessenger />
+        <Analytics />
       </body>
     </html>
   );
