@@ -1,4 +1,4 @@
-# Air lable
+# Air label
 
 <p align="center">
   <a href="https://air-label.vercel.app/">
